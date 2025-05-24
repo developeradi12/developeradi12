@@ -1,26 +1,34 @@
 ![logo](https://raw.githubusercontent.com/developeradi12/developeradi12/main/banner.jpeg)
 
-
 <h1 align="center">Hi 👋, I'm Aditya Gangil</h1>
 <h3 align="center">Electronics Engineer | Full-Stack Developer | Startup Enthusiast</h3>
-<img align="right" alt="coding" width="400" src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" />
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=developeradi12&label=Profile%20views&color=0e75b6&style=flat" alt="developeradi12" /> </p>
+<img align="right" alt="coding animation" width="400" src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" />
+
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=developeradi12&label=Profile%20views&color=0e75b6&style=flat" alt="developeradi12 profile views" />
+</p>
 
 - 🔭 I’m currently working on **Component_mitra**
 
 - 👯 I’m looking to collaborate on **Innovative MERN stack projects, microservice tools, or tech-for-good ideas**
 
-- 💬 Ask me about **React, Redux, Node.js,**
+- 💬 Ask me about **React, Redux, Node.js**
 
 - 📫 How to reach me **adityagangil182@gmail.com**
 
 - ⚡ Fun fact **I think I am funny 😄**
 
+---
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/aditya-gangil-5b8b98244/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/aditya-gangil-5b8b98244/" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/aditya-gangil-5b8b98244/" target="_blank" rel="noreferrer">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+  </a>
 </p>
+
+---
 
 <h3 align="left">🧠 Languages</h3>
 <p align="left">
@@ -34,6 +42,8 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
   </a>
 </p>
+
+---
 
 <h3 align="left">🖥️ Frontend Development</h3>
 <p align="left">
@@ -54,6 +64,8 @@
   </a>
 </p>
 
+---
+
 <h3 align="left">🛠️ Backend & APIs</h3>
 <p align="left">
   <a href="https://nodejs.org" target="_blank" rel="noreferrer">
@@ -70,6 +82,8 @@
   </a>
 </p>
 
+---
+
 <h3 align="left">💾 Databases</h3>
 <p align="left">
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
@@ -79,6 +93,8 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
   </a>
 </p>
+
+---
 
 <h3 align="left">⚙️ Tools & Platforms</h3>
 <p align="left">
@@ -93,9 +109,16 @@
   </a>
 </p>
 
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=developeradi12&show_icons=true&locale=en&layout=compact" alt="developeradi12" /></p>
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=developeradi12&layout=compact&langs_count=6&hide=HTML,CSS&theme=dark&hide_border=true" alt="developeradi12 top languages" />
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=developeradi12&show_icons=true&locale=en" alt="developeradi12" /></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=developeradi12&show_icons=true&locale=en&theme=dark&hide_border=true" alt="developeradi12 GitHub stats" />
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=developeradi12&" alt="developeradi12" /></p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=developeradi12&theme=dark" alt="developeradi12 GitHub streak" />
+</p>
