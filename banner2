@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e1a"/>
+      <stop offset="50%" style="stop-color:#0d1525"/>
+      <stop offset="100%" style="stop-color:#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00e5ff;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#00e5ff;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#7c3aed;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="60%" style="stop-color:#e0e7ff"/>
+      <stop offset="100%" style="stop-color:#a5b4fc"/>
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bg)"/>
+
+  <!-- Grid pattern - subtle dots -->
+  <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="20" cy="20" r="1" fill="#1e3a5f" opacity="0.5"/>
+  </pattern>
+  <rect width="1500" height="500" fill="url(#dots)"/>
+
+  <!-- Decorative circles - background orbs -->
+  <circle cx="1200" cy="250" r="280" fill="#1a0a3a" opacity="0.5"/>
+  <circle cx="1350" cy="150" r="180" fill="#0a1a3a" opacity="0.4"/>
+  <circle cx="100" cy="400" r="200" fill="#001a2a" opacity="0.4"/>
+
+  <!-- Glowing orb behind code block -->
+  <circle cx="1150" cy="250" r="200" fill="#7c3aed" opacity="0.07" filter="url(#softGlow)"/>
+  <circle cx="350" cy="200" r="150" fill="#00e5ff" opacity="0.04" filter="url(#softGlow)"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1500" height="3" fill="url(#accentLine)"/>
+  <!-- Bottom accent line -->
+  <rect x="0" y="497" width="1500" height="3" fill="url(#accentLine)"/>
+
+  <!-- Left decorative vertical line -->
+  <rect x="60" y="60" width="1" height="380" fill="#00e5ff" opacity="0.2"/>
+
+  <!-- Code block decoration - right side -->
+  <rect x="920" y="80" width="520" height="340" rx="12" fill="url(#cardGrad1)" opacity="0.7" stroke="#334155" stroke-width="1"/>
+  <!-- Code block header bar -->
+  <rect x="920" y="80" width="520" height="38" rx="12" fill="#1e293b"/>
+  <rect x="920" y="100" width="520" height="18" fill="#1e293b"/>
+  <!-- Window dots -->
+  <circle cx="950" cy="99" r="7" fill="#ff5f57"/>
+  <circle cx="973" cy="99" r="7" fill="#febc2e"/>
+  <circle cx="996" cy="99" r="7" fill="#28c840"/>
+
+  <!-- Code lines -->
+  <!-- Line 1 -->
+  <text x="940" y="148" font-family="'Courier New', monospace" font-size="13" fill="#569cd6">const</text>
+  <text x="983" y="148" font-family="'Courier New', monospace" font-size="13" fill="#9cdcfe"> developer</text>
+  <text x="1066" y="148" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4"> = {</text>
+
+  <!-- Line 2 -->
+  <text x="960" y="172" font-family="'Courier New', monospace" font-size="13" fill="#9cdcfe">  name</text>
+  <text x="1000" y="172" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">:</text>
+  <text x="1010" y="172" font-family="'Courier New', monospace" font-size="13" fill="#ce9178"> "Aditya Gangil"</text>
+  <text x="1126" y="172" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">,</text>
+
+  <!-- Line 3 -->
+  <text x="960" y="196" font-family="'Courier New', monospace" font-size="13" fill="#9cdcfe">  role</text>
+  <text x="1000" y="196" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">:</text>
+  <text x="1010" y="196" font-family="'Courier New', monospace" font-size="13" fill="#ce9178"> "Full-Stack Dev"</text>
+  <text x="1130" y="196" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">,</text>
+
+  <!-- Line 4 -->
+  <text x="960" y="220" font-family="'Courier New', monospace" font-size="13" fill="#9cdcfe">  stack</text>
+  <text x="1007" y="220" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">: [</text>
+  <text x="1028" y="220" font-family="'Courier New', monospace" font-size="13" fill="#ce9178">"Next.js"</text>
+  <text x="1098" y="220" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">,</text>
+
+  <!-- Line 5 -->
+  <text x="1028" y="244" font-family="'Courier New', monospace" font-size="13" fill="#ce9178">   "TypeScript"</text>
+  <text x="1126" y="244" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">,</text>
+
+  <!-- Line 6 -->
+  <text x="1028" y="268" font-family="'Courier New', monospace" font-size="13" fill="#ce9178">   "MongoDB"</text>
+  <text x="1113" y="268" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">],</text>
+
+  <!-- Line 7 -->
+  <text x="960" y="292" font-family="'Courier New', monospace" font-size="13" fill="#9cdcfe">  passion</text>
+  <text x="1020" y="292" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">:</text>
+  <text x="1030" y="292" font-family="'Courier New', monospace" font-size="13" fill="#ce9178"> "Building SaaS"</text>
+  <text x="1148" y="292" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">,</text>
+
+  <!-- Line 8 -->
+  <text x="960" y="316" font-family="'Courier New', monospace" font-size="13" fill="#9cdcfe">  status</text>
+  <text x="1013" y="316" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">:</text>
+  <text x="1023" y="316" font-family="'Courier New', monospace" font-size="13" fill="#4ec994"> "open to work"</text>
+
+  <!-- Line 9 -->
+  <text x="940" y="340" font-family="'Courier New', monospace" font-size="13" fill="#d4d4d4">}</text>
+
+  <!-- Cursor blink -->
+  <rect x="950" y="350" width="8" height="16" fill="#00e5ff" opacity="0.8"/>
+
+  <!-- Main text content - left side -->
+  <!-- Greeting tag -->
+  <rect x="80" y="95" width="110" height="28" rx="14" fill="#00e5ff" opacity="0.12" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="135" y="114" font-family="'Courier New', monospace" font-size="12" fill="#00e5ff" text-anchor="middle">&lt;hello world /&gt;</text>
+
+  <!-- Main Name -->
+  <text x="80" y="198" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)">Aditya</text>
+  <text x="80" y="278" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="url(#nameGrad)" filter="url(#glow)">Gangil</text>
+
+  <!-- Horizontal divider -->
+  <rect x="80" y="296" width="200" height="2" rx="1" fill="url(#accentLine)"/>
+
+  <!-- Subtitle -->
+  <text x="80" y="330" font-family="Arial, sans-serif" font-size="17" fill="#94a3b8" letter-spacing="2">FULL-STACK DEVELOPER</text>
+
+  <!-- Tech pills row -->
+  <!-- Next.js pill -->
+  <rect x="80" y="358" width="82" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="121" y="375" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">Next.js</text>
+
+  <!-- TypeScript pill -->
+  <rect x="172" y="358" width="96" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="220" y="375" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">TypeScript</text>
+
+  <!-- React pill -->
+  <rect x="278" y="358" width="70" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="313" y="375" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">React</text>
+
+  <!-- MongoDB pill -->
+  <rect x="358" y="358" width="82" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="399" y="375" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">MongoDB</text>
+
+  <!-- TailwindCSS pill -->
+  <rect x="80" y="393" width="100" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="130" y="410" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">TailwindCSS</text>
+
+  <!-- Node.js pill -->
+  <rect x="190" y="393" width="76" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="228" y="410" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">Node.js</text>
+
+  <!-- Email row -->
+  <text x="80" y="455" font-family="Arial, sans-serif" font-size="13" fill="#475569">✉</text>
+  <text x="100" y="455" font-family="Arial, sans-serif" font-size="13" fill="#64748b">adityagangil182@gmail.com</text>
+
+  <!-- Decorative geometric shapes -->
+  <polygon points="830,60 850,90 810,90" fill="#00e5ff" opacity="0.15"/>
+  <polygon points="870,400 895,440 845,440" fill="#7c3aed" opacity="0.15"/>
+  <rect x="840" y="200" width="20" height="20" rx="4" fill="#00e5ff" opacity="0.1" transform="rotate(45 850 210)"/>
+
+  <!-- Right edge accent -->
+  <rect x="1496" y="60" width="1" height="380" fill="#7c3aed" opacity="0.3"/>
+
+  <!-- Small dot decorations -->
+  <circle cx="800" cy="100" r="3" fill="#00e5ff" opacity="0.4"/>
+  <circle cx="820" cy="140" r="2" fill="#7c3aed" opacity="0.4"/>
+  <circle cx="790" cy="380" r="2.5" fill="#00e5ff" opacity="0.3"/>
+  <circle cx="860" cy="300" r="2" fill="#7c3aed" opacity="0.3"/>
+</svg>
