@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <a href="www.linkedin.com/in/aditya-gangil-5b8b98244">
+  <a href="https://www.linkedin.com/in/aditya-gangil-5b8b98244/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   &nbsp;
