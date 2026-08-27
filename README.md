@@ -13,6 +13,10 @@
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   &nbsp;
+  <a href="https://makediy.in">
+    <img src="https://img.shields.io/badge/MakeDIY-e15c18?style=for-the-badge&logo=homeassistantcommunitystore&logoColor=white" alt="MakeDIY"/>
+  </a>
+  &nbsp;
   <img src="https://komarev.com/ghpvc/?username=developeradi12&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS" alt="Profile Views"/>
 </div>
 
@@ -22,13 +26,26 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Full-Stack Software Developer** focused on building clean, scalable, and production-ready web applications. I specialize in the **Next.js / MERN** ecosystem and enjoy crafting polished UI systems backed by solid architecture.
+I'm a **Full-Stack Software Developer** who ships production applications end to end — currently a
+**Junior Full-Stack Developer at Agent Space AI** (AI document-intelligence platforms) and
+**Lead Developer at [MakeDIY](https://makediy.in)**, a live e-commerce + custom-manufacturing platform.
 
-- 🔭 &nbsp;Currently building **modern full-stack SaaS applications**
-- 🌱 &nbsp;Working with **Next.js, TypeScript, TailwindCSS, MongoDB**
-- 👯 &nbsp;Open to collaborate on **Next.js / MERN / SaaS projects**
-- 💬 &nbsp;Ask me about **React, Next.js, Node.js, MongoDB, UI Architecture**
+- 🔭 &nbsp;Currently building **PCB fabrication & 3D printing services** on MakeDIY — quote-to-payment workflows with **in-browser 3D previews (three.js)**
+- 🤖 &nbsp;At Agent Space: replaced OCR + LLM extraction with **deterministic document parsers** (TypeScript, byte-exact against production docs)
+- 🌱 &nbsp;Working with **Next.js 16, TypeScript, three.js, Node.js, MongoDB, PostgreSQL**
+- 💬 &nbsp;Ask me about **React/Next.js architecture, payment integrations (Paytm/Razorpay), auth systems, 3D on the web**
 - ⚡ &nbsp;Fun fact: I turn complex problems into clean, intuitive UI solutions
+
+---
+
+## 🚀 What I've Built
+
+| Project | What it is | Highlights |
+|---|---|---|
+| **[MakeDIY](https://makediy.in)** — Lead Developer | Live e-commerce + custom-manufacturing platform for DIY electronics | Next.js 16 + Express/MongoDB · PCB & 3D-printing quote wizards with **three.js model viewer + live weight/print-time estimates** · Paytm with idempotent settlement · JWT auth with refresh-token rotation & reuse detection · 17-section admin panel · ~40% faster homepage |
+| **Agent Space AI** — Junior Full-Stack Dev | Customs-compliance document-intelligence platform | Deterministic parsers replacing OCR + LLM pipelines (**byte-identical across 21 production docs**, 569 validation checks on the export parser) · Power Automate ↔ PostgreSQL flows · live on dev & staging |
+| **Abbie Education** — LMS | [training.abbieeducation.world](https://training.abbieeducation.world) | Course → Chapter → Lesson architecture · Razorpay purchase flow · live with enrolled students |
+| **Diwan Foundation** — NGO platform | [allgujaratmuslimfakirdiwansamaj.org](https://allgujaratmuslimfakirdiwansamaj.org) | Multi-role RBAC · QR donation workflow · automated PDF certificates |
 
 ---
 
@@ -36,57 +53,53 @@ I'm a **Full-Stack Software Developer** focused on building clean, scalable, and
 
 ### Languages
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
 ### Frontend
 <p>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-</p>
-
-### UI Libraries & Design Systems
-<p>
   <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/>
 </p>
 
-### State Management
+### State & Data Fetching
 <p>
+  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Context_API-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white"/>
 </p>
 
 ### Backend & APIs
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-</p>
-
-### Validation & Forms
-<p>
-  <img src="https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
 </p>
 
 ### Databases
 <p>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
-### Tools & Platforms
+### Tools, Cloud & Automation
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=make&logoColor=white"/>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
 </p>
 
 ---
@@ -116,10 +129,11 @@ I'm a **Full-Stack Software Developer** focused on building clean, scalable, and
 ## 🚀 Current Focus
 
 ```
-✦  Building production-level Next.js applications
-✦  Designing scalable full-stack architectures
-✦  Creating modern UI systems with Tailwind + shadcn/ui
-✦  Developing real-world SaaS platforms
+✦  Shipping custom-manufacturing services (PCB + 3D printing) on MakeDIY
+✦  3D on the web — three.js viewers, mesh analysis, WebGL rendering
+✦  Deterministic document parsers that replace OCR + LLM pipelines
+✦  Payment systems done right — idempotent settlement, webhooks, audit trails
+✦  AI-assisted development workflows for production-grade delivery
 ```
 
 ---
