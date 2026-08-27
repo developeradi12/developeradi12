@@ -30,9 +30,9 @@ I'm a **Full-Stack Software Developer** who ships production applications end to
 **Junior Full-Stack Developer at Agent Space AI** (AI document-intelligence platforms) and
 **Lead Developer at [MakeDIY](https://makediy.in)**, a live e-commerce + custom-manufacturing platform.
 
-- 🔭 &nbsp;Currently building **PCB fabrication & 3D printing services** on MakeDIY — quote-to-payment workflows with **in-browser 3D previews (three.js)**
+- 🚀 &nbsp;**Shipped MakeDIY end to end** — live storefront + **PCB fabrication & 3D printing services**: quote-to-payment workflows, **in-browser 3D previews (three.js)**, Paytm, full admin panel
 - 🤖 &nbsp;At Agent Space: replaced OCR + LLM extraction with **deterministic document parsers** (TypeScript, byte-exact against production docs)
-- 🌱 &nbsp;Working with **Next.js 16, TypeScript, three.js, Node.js, MongoDB, PostgreSQL**
+- 🌱 &nbsp;Currently learning **AI engineering — LLM applications, agentic workflows & multi-agent systems** (and using them daily in production work)
 - 💬 &nbsp;Ask me about **React/Next.js architecture, payment integrations (Paytm/Razorpay), auth systems, 3D on the web**
 - ⚡ &nbsp;Fun fact: I turn complex problems into clean, intuitive UI solutions
 
@@ -129,10 +129,10 @@ I'm a **Full-Stack Software Developer** who ships production applications end to
 ## 🚀 Current Focus
 
 ```
-✦  Shipping custom-manufacturing services (PCB + 3D printing) on MakeDIY
-✦  3D on the web — three.js viewers, mesh analysis, WebGL rendering
+✦  Learning AI engineering — LLM apps, AI agents & multi-agent workflows
 ✦  Deterministic document parsers that replace OCR + LLM pipelines
-✦  Payment systems done right — idempotent settlement, webhooks, audit trails
+✦  3D on the web — three.js viewers, mesh analysis, WebGL rendering
+✦  Post-launch iteration on MakeDIY's manufacturing services (shipped ✓)
 ✦  AI-assisted development workflows for production-grade delivery
 ```
 
