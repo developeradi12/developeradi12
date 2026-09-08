@@ -1,6 +1,6 @@
-<div align="center">
+<!-- <div align="center">
   <img src="https://raw.githubusercontent.com/developeradi12/developeradi12/main/banner2.svg" alt="Aditya Gangil - Full Stack Developer" width="100%"/>
-</div>
+</div> -->
 
 <br/>
 
