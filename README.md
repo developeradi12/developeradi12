@@ -1,29 +1,3 @@
-<!-- <div align="center">
-  <img src="https://raw.githubusercontent.com/developeradi12/developeradi12/main/banner2.svg" alt="Aditya Gangil - Full Stack Developer" width="100%"/>
-</div> -->
-
-<br/>
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/aditya-gangil-5b8b98244/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="mailto:adityagangil182@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  &nbsp;
-  <a href="https://makediy.in">
-    <img src="https://img.shields.io/badge/MakeDIY-e15c18?style=for-the-badge&logo=homeassistantcommunitystore&logoColor=white" alt="MakeDIY"/>
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=developeradi12&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS" alt="Profile Views"/>
-</div>
-
-<br/>
-
----
-
 ## 👨‍💻 About Me
 
 I'm a **Full-Stack Software Developer** who ships production applications end to end — currently a
