@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="Terminal: Aditya Gangil, Full-Stack Developer at Agent Space AI and Lead Developer at MakeDIY">
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; font-size: 17px; }
+    .prompt { fill: #7ee787; }
+    .cmd { fill: #e6edf3; }
+    .out { fill: #8b949e; }
+    .name { fill: #ffffff; font-weight: 700; font-size: 30px; }
+    .role { fill: #79c0ff; }
+    .live { fill: #3fb950; font-weight: 700; }
+    .dev { fill: #d29922; font-weight: 700; }
+    .title { fill: #6e7681; font-size: 13px; }
+    .line { opacity: 0; animation: show 0.01s forwards; }
+    @keyframes show { to { opacity: 1; } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .line { animation: none; opacity: 1; } .cursor { animation: none; } }
+  </style>
+
+  <rect x="1" y="1" width="998" height="398" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h974 a12 12 0 0 1 12 12 v27 h-998 z" fill="#161b22"/>
+  <line x1="1" y1="40" x2="999" y2="40" stroke="#30363d" stroke-width="1"/>
+  <circle cx="24" cy="21" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="21" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="21" r="6" fill="#28c840"/>
+  <text x="500" y="26" text-anchor="middle" class="mono title">aditya@dev: ~</text>
+
+  <g class="mono">
+    <g class="line" style="animation-delay:0.2s"><text x="28" y="80"><tspan class="prompt">❯</tspan><tspan class="cmd"> whoami</tspan></text></g>
+    <g class="line" style="animation-delay:0.8s"><text x="28" y="120" class="name">Aditya Gangil</text></g>
+    <g class="line" style="animation-delay:1.2s"><text x="28" y="148" class="role">Full-Stack Developer @ Agent Space AI  ·  Lead Developer @ MakeDIY</text></g>
+
+    <g class="line" style="animation-delay:2.0s"><text x="28" y="196"><tspan class="prompt">❯</tspan><tspan class="cmd"> ./status --shipping</tspan></text></g>
+    <g class="line" style="animation-delay:2.6s"><text x="28" y="228"><tspan class="live">[live]</tspan><tspan class="out"> deterministic document parser — replaced OCR + AI extraction</tspan></text></g>
+    <g class="line" style="animation-delay:3.0s"><text x="28" y="256"><tspan class="role" font-weight="700">[audit]</tspan><tspan class="out"> 410 prod docs audited · 4,753 duty rows · 0 mismatches</tspan></text></g>
+    <g class="line" style="animation-delay:3.4s"><text x="28" y="284"><tspan class="dev">[dev] </tspan><tspan class="out"> export pipeline → Postgres · 21,078 fields · 0 diffs</tspan></text></g>
+    <g class="line" style="animation-delay:3.8s"><text x="28" y="312"><tspan class="live">[live]</tspan><tspan class="out"> makediy.in — PCB &amp; 3D-printing quotes with a three.js viewer</tspan></text></g>
+
+    <g class="line" style="animation-delay:4.4s"><text x="28" y="360"><tspan class="prompt">❯</tspan><tspan class="cmd"> </tspan><tspan class="cmd cursor">▋</tspan></text></g>
+  </g>
+</svg>
