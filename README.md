@@ -62,10 +62,11 @@ A real-world e-commerce and custom-manufacturing web app, live and used by custo
 ## `$ git log --stats`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=developeradi12&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=developeradi12&layout=compact&langs_count=8&hide_border=true&theme=transparent" height="165" alt="Top languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=developeradi12&theme=github_dark" width="100%" alt="Contributions"/>
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=developeradi12&theme=github-compact&hide_border=true&area=true" width="100%" alt="Contribution graph"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=developeradi12&theme=github_dark" width="32%" alt="GitHub stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=developeradi12&theme=github_dark" width="32%" alt="Top languages by repo"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=developeradi12&theme=github_dark" width="32%" alt="Top languages by commit"/>
 </div>
 
 ---
