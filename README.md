@@ -7,6 +7,7 @@ const aditya = {
   role:     "Full-Stack Developer",
   at:       ["Agent Space AI", "MakeDIY — lead developer"],
   builds:   ["document-intelligence products", "APIs & data pipelines", "dashboards & web apps"],
+  approach: ["root cause over quick patches", "small, clean changes", "proof before \"done\""],
   learning: ["AI engineering", "agentic workflows", "system design"],
 };
 ```
@@ -20,13 +21,23 @@ Building a document-intelligence product end to end:
 - **Frontend** — Next.js dashboards, reports and analytics
 - **Automation** — workflow integrations and data validation
 
-## `$ ls ~/projects`
+## `$ ps --running` — in production
 
-| Project | Stack | Highlights |
+### [MakeDIY](https://makediy.in) &nbsp;·&nbsp; lead developer
+
+A real-world e-commerce and custom-manufacturing web app, live and used by customers every day.
+`Next.js` `Express` `MongoDB` `three.js`
+
+- Online store for DIY electronics, from catalogue to checkout
+- **PCB fabrication & 3D-printing orders** — upload a design, see it in an in-browser 3D viewer, get a live quote
+- Paytm payments, secure JWT auth with refresh-token rotation, full admin panel
+
+### Also shipped
+
+| App | Stack | What it does |
 |---|---|---|
-| **[MakeDIY](https://makediy.in)** · lead dev | Next.js · Express · MongoDB · three.js | E-commerce + PCB & 3D-printing quote wizards with an in-browser 3D model viewer and live weight / print-time estimates · Paytm payments · JWT auth with refresh-token rotation · 17-section admin panel |
-| **[Abbie Education](https://training.abbieeducation.world)** · LMS | Next.js · Node · Razorpay | Course → Chapter → Lesson structure, purchase flow, live with enrolled students |
-| **[Diwan Foundation](https://allgujaratmuslimfakirdiwansamaj.org)** · NGO | Node · RBAC | Multi-role access, QR donation flow, auto-generated PDF certificates |
+| **[Abbie Education](https://training.abbieeducation.world)** | Next.js · Node · Razorpay | Learning platform with courses, lessons and paid enrolment — live with students |
+| **[Diwan Foundation](https://allgujaratmuslimfakirdiwansamaj.org)** | Node · RBAC | NGO platform with role-based access, QR donations and auto-generated certificates |
 
 ## `$ cat stack.json`
 
