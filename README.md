@@ -64,9 +64,8 @@ A real-world e-commerce and custom-manufacturing web app, live and used by custo
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=developeradi12&theme=github_dark" width="100%" alt="Contributions"/>
   <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=developeradi12&theme=github_dark" width="32%" alt="GitHub stats"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=developeradi12&theme=github_dark" width="32%" alt="Top languages by repo"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=developeradi12&theme=github_dark" width="32%" alt="Top languages by commit"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=developeradi12&theme=github_dark" width="48%" alt="Top languages by repo"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=developeradi12&theme=github_dark" width="48%" alt="Top languages by commit"/>
 </div>
 
 ---
