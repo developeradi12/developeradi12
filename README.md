@@ -4,27 +4,21 @@
 
 ```ts
 const aditya = {
-  role:      "Full-Stack Developer",
-  at:        ["Agent Space AI — document intelligence for customs & trade", "MakeDIY — lead developer"],
-  shipping:  "deterministic parsers, GraphQL APIs, Postgres pipelines, Next.js dashboards",
-  principle: "if it's in production, it has numbers behind it",
-  learning:  ["AI engineering", "agentic workflows", "system design"],
+  role:     "Full-Stack Developer",
+  at:       ["Agent Space AI", "MakeDIY — lead developer"],
+  builds:   ["document-intelligence products", "APIs & data pipelines", "dashboards & web apps"],
+  learning: ["AI engineering", "agentic workflows", "system design"],
 };
 ```
 
 ## `$ now` — Agent Space AI
 
-I build the platform that reads import & export customs documents (Bills of Entry, Shipping Bills) and turns them into verified, queryable data — used in production by **2 enterprise healthcare/biotech clients**.
+Building a document-intelligence product end to end:
 
-| | What I built | Proof |
-|:-:|---|---|
-| ![live](https://img.shields.io/badge/-LIVE-2ea043?style=flat-square) | **Deterministic PDF parser** that replaced the OCR + AI extraction step — Python prototype, then ported to TypeScript inside the NestJS backend | Byte-identical output vs. the prototype on 21 real documents · 45-doc load test, 0 failures |
-| ![live](https://img.shields.io/badge/-LIVE-2ea043?style=flat-square) | **Production rollout** — Power Automate flow + custom connector through an on-prem gateway, promoted dev → stage → prod for two clients | Running on both clients' prod |
-| ![live](https://img.shields.io/badge/-LIVE-2ea043?style=flat-square) | **Automated triage checks** that flag bad extractions before a human reviews them | 6 checks, 21 unit tests |
-| ![dev](https://img.shields.io/badge/-DEV-d29922?style=flat-square) | **Data-accuracy audit & fixes** — multi-IGM fix, DB migration, ingest fixes | 410 prod docs · 4,753 duty rows · **0 mismatches** |
-| ![dev](https://img.shields.io/badge/-DEV-d29922?style=flat-square) | **Shipping Bill pipeline** into 5 Postgres tables + in-app notifications | 21,078 fields compared API vs CLI · 0 diffs |
-| ![merged](https://img.shields.io/badge/-MERGED-8957e5?style=flat-square) | **Custom report builders** — pick fields, preview, export to Excel | Up to 50k rows |
-| ![dev](https://img.shields.io/badge/-DEV-d29922?style=flat-square) | **Performance / SLA page** — clearance time in working days with a state holiday calendar | 80.4% cleared within 3 working days |
+- **PDF parsing & data extraction** — TypeScript and Python
+- **Backend** — NestJS, GraphQL, PostgreSQL
+- **Frontend** — Next.js dashboards, reports and analytics
+- **Automation** — workflow integrations and data validation
 
 ## `$ ls ~/projects`
 

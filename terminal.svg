@@ -29,11 +29,11 @@
     <g class="line" style="animation-delay:0.8s"><text x="28" y="120" class="name">Aditya Gangil</text></g>
     <g class="line" style="animation-delay:1.2s"><text x="28" y="148" class="role">Full-Stack Developer @ Agent Space AI  ·  Lead Developer @ MakeDIY</text></g>
 
-    <g class="line" style="animation-delay:2.0s"><text x="28" y="196"><tspan class="prompt">❯</tspan><tspan class="cmd"> ./status --shipping</tspan></text></g>
-    <g class="line" style="animation-delay:2.6s"><text x="28" y="228"><tspan class="live">[live]</tspan><tspan class="out"> deterministic document parser — replaced OCR + AI extraction</tspan></text></g>
-    <g class="line" style="animation-delay:3.0s"><text x="28" y="256"><tspan class="role" font-weight="700">[audit]</tspan><tspan class="out"> 410 prod docs audited · 4,753 duty rows · 0 mismatches</tspan></text></g>
-    <g class="line" style="animation-delay:3.4s"><text x="28" y="284"><tspan class="dev">[dev] </tspan><tspan class="out"> export pipeline → Postgres · 21,078 fields · 0 diffs</tspan></text></g>
-    <g class="line" style="animation-delay:3.8s"><text x="28" y="312"><tspan class="live">[live]</tspan><tspan class="out"> makediy.in — PCB &amp; 3D-printing quotes with a three.js viewer</tspan></text></g>
+    <g class="line" style="animation-delay:2.0s"><text x="28" y="196"><tspan class="prompt">❯</tspan><tspan class="cmd"> cat focus.txt</tspan></text></g>
+    <g class="line" style="animation-delay:2.6s"><text x="28" y="228"><tspan class="live">→</tspan><tspan class="out"> document intelligence — turning messy PDFs into clean, structured data</tspan></text></g>
+    <g class="line" style="animation-delay:3.0s"><text x="28" y="256"><tspan class="live">→</tspan><tspan class="out"> full-stack products — Next.js, NestJS, GraphQL, PostgreSQL</tspan></text></g>
+    <g class="line" style="animation-delay:3.4s"><text x="28" y="284"><tspan class="live">→</tspan><tspan class="out"> e-commerce &amp; 3D on the web — makediy.in</tspan></text></g>
+    <g class="line" style="animation-delay:3.8s"><text x="28" y="312"><tspan class="dev">→</tspan><tspan class="out"> learning: AI engineering, agentic workflows, system design</tspan></text></g>
 
     <g class="line" style="animation-delay:4.4s"><text x="28" y="360"><tspan class="prompt">❯</tspan><tspan class="cmd"> </tspan><tspan class="cmd cursor">▋</tspan></text></g>
   </g>
