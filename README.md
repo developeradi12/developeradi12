@@ -24,7 +24,7 @@ Early engineer at a seed-stage AI startup, building a customs document-intellige
 
 ## `$ ps --running` — in production
 
-### [MakeDIY](https://makediy.in) &nbsp;·&nbsp; lead developer
+### [MakeDIY](https://makediy.in) &nbsp;·&nbsp; lead developer, Aug 2025 – Aug 2026
 
 A real-world e-commerce and custom-manufacturing web app, live and used by customers every day.
 `Next.js` `Express` `MongoDB` `three.js`
