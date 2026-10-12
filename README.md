@@ -14,12 +14,13 @@ const aditya = {
 
 ## `$ now` — Agent Space AI
 
-Building a document-intelligence product end to end:
+Early engineer at a seed-stage AI startup, building a customs document-intelligence platform that is live in production for enterprise clients.
 
-- **PDF parsing & data extraction** — TypeScript and Python
-- **Backend** — NestJS, GraphQL, PostgreSQL
-- **Frontend** — Next.js dashboards, reports and analytics
-- **Automation** — workflow integrations and data validation
+- **Deterministic PDF parser** that replaced an AI/OCR extraction pipeline — built in Python, ported to TypeScript/NestJS, verified byte-for-byte against real documents, live since Aug 2026
+- **Production releases** — workflow automation, custom connectors, dev → stage → prod promotion, PostgreSQL migrations
+- **Data correctness** — every change verified against real documents before merge
+- **Features shipped** — report builder with Excel export, SLA performance page, review filters, document triage checks with unit tests, sign-in with RBAC, notifications, inline PDF preview
+- **Stack** — TypeScript, NestJS, GraphQL, Next.js, PostgreSQL, Python, pdf.js, Power Platform
 
 ## `$ ps --running` — in production
 
